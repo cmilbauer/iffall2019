@@ -1,0 +1,64 @@
+body{
+	background-color: #aaaaaa;
+	color: #000044;;
+	font family: Crimson Text, serif;
+	font-size: 16pt; /*16px; 16% */
+}
+div{
+	font-size: 16px;
+	text-align: center;
+}
+h1{
+	font-family: Crimson Text, serif;
+	font-size: 3em;
+	color: maroon;
+	font-weight: normal;
+	margin-bottom: 10px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+}
+p{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.superduper{
+	font-family: Arial, sans-serif;
+	color:#dddddd;
+	font-size: 30px;
+}
+.superduperdo{
+	font-family: Arial, sans-serif;
+	color:#dddddd;
+	font-size: 12px;
+}
+.overline{
+	text-decoration: overline;
+}
+.uppercase{
+	text-transform: uppercase;
+} 
+.lowercase{
+	text-transform: lowercase; 
+}
+.capitalize{
+	text-transform: capitalize; 
+}
+strong{
+	font-weight: bold;
+	font-style: normal;
+}
+em{
+	font-weight: normal;
+	font-style: italic;
+}
+.spaced{
+	letter-spacing: .3em;
+}
+.condensed{
+	letter-spacing: -.06em;
+}
+
+
+text-indent: 20px;
+	line-height: 1.4;
+	letter-spacing: 10px;
