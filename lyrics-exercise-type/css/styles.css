@@ -1,0 +1,41 @@
+body {
+	background-color: #9988ab	
+}
+img{
+	position: relative;
+}
+.center{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+}
+h1 { 
+	color: #952853; font-family: 'Squada One', sans-serif; font-size: 64px; text-align: center; 
+	margin-top: 10px; margin-bottom: -30px; z-index: 2; position: relative; letter-spacing: .05em;
+}
+h2 { 
+	color: #952853; font-family: 'Squada One', sans-serif; font-size: 28px; text-align: center; 
+	margin-top: 10px; margin-bottom: 5px; letter-spacing: .08em;
+}
+h3 {
+	color: #faaaba; font-family: 'Squada One', sans-serif; font-size: 20px; text-align: center; 
+	margin-top: 5px; margin-bottom: 40px; letter-spacing: .08em;
+}
+section {
+	color: #fabbeb; font-family: 'Saira Semi Condensed', sans-serif; font-size:14; text-align: center; line-height: 20px;
+}
+footer{
+	color: #952853; font-family: pt sans; font-size: 12px; text-align: center; margin-top: 20px; margin-bottom: 10px;
+}
+p{
+	color: #d598f9;
+}
+div{
+	color: #f999a9; font-style: italic;
+}
+.title{
+	font-weight: bold;
+}
+
+}
