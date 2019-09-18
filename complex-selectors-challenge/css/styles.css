@@ -1,0 +1,49 @@
+header{
+	margin-bottom:3rem;
+}
+p{
+	line-height: 1.6;
+}
+.see-all{
+	font-size:.08em;
+	text-transform: uppercase;
+}
+ul h1{
+	font-size:2.5rem;
+	border-top: 1px solid black;
+}
+ul h2{
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+ul h1, ul h2{
+	font-weight: lighter;
+}
+img{
+	width: 100%;
+}
+.cast li{
+	width: 25%;
+}
+.selected{
+	font-weight: bold;
+	color: black;
+}
+a{
+	font-size: 0.8rem;
+}
+div:first-of-type{
+	font-weight: bold;
+}
+div:last-of-type{
+	font-style: italic;
+}
+.seasons li:last-of-type:after{
+	content: "*";
+}
+.seasons:after{
+	content: "* Final Season";
+	font-size: 0.7rem;
+	color: #999;
+}
+
