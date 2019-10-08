@@ -34,10 +34,12 @@ section{
 section > div{
 	width: 960px;
 	margin: auto;
-	padding: 38.6px 0 52px 0;
+	padding: 38.6px 0 35px 0;
+	/* background-color: rgba(0, 333, 0, .25); */
 }
 section.section_one{
-	background-color: rgba(0, 0, 333, .25);
+	background-color: #b4cfce;
+	padding-bottom: 21px;
 }
 h3{
 	margin: 0 0 32px 0;
@@ -62,18 +64,55 @@ p{
 h4{
 	font-size: 20px;
 	font-weight: 700;
-	margin: 0 0 0 0;
+	margin: 0 0 8.5px 0;
 }
 section.section_two{
-	background-color: rgba(0, 333, 0, .25);
+	background-color: #f2d7bb;
+	padding-bottom: 6px;
 }
 
-.section_two img{
-	float: left;
-	margin: 0 12px 0 0;
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	width: 50%;
+	height: 174px;
+	/* background-color: rgba(200, 0, 0, .3); */
+	padding: 0 10px 27px 0;
+	box-sizing: border-box ;
 	display: inline-block;
 }
+li img{
+	margin: 0 12px 0 0;
+	height: 150px;
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+li p{
+	text-align: left;
+	font-size: 18px;
+	margin: 0 20px 0 0;
+}
+section.section_three{
+		background-color: #b4cfce;
+}
 
-section.section_three > p{
+section.section_three p{
+	margin: 35px 116px 66px 116px;
+	font-size: 25.5px;
 	text-align: center;
+	letter-spacing:  -.1px;
+	line-height: 35px;
+}
+
+footer{
+	padding: 38px 10px 27px 80px; ;
+	font-size: 18px;	
+	background-color: #d92546;
+	/* #998c9c */
+	letter-spacing: -.3px;
+	font-weight: 600;
 }
