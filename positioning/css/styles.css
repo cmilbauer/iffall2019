@@ -1,0 +1,33 @@
+.section_one aside{
+	float: right;
+	background-color: blue;
+}
+section.two aside{
+	position: relative;
+	top: 300px;
+	left: 640px;
+	background-color: blue;
+}
+.three aside{
+	background-color: green;
+	position: fixed;
+  	top: 0;
+  	right:0;
+}
+.four{
+	position: relative;
+	z-index: -2;
+}
+.four aside{
+	position: absolute;
+	margin: auto;
+	background-color: red;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+aside.black{
+	background-color: black;
+	margin: 10px;
+	z-index: -1;
+}
