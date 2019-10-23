@@ -8,6 +8,9 @@ header{
 	margin: auto;
 	text-transform: uppercase;
 }
+body{
+	margin: 0;
+}
 h1{
 	font-family: "Patua One", sans-serif;
 	font-size: 14pt;
@@ -33,6 +36,15 @@ div{
 	margin: auto;
 	line-height: 24px
 }
+ul{
+	font-family: "Stratos", sans-serif;
+	font-size: 10pt;
+	background-color: #a53e23;
+	color: white;
+	padding: 4px 40px 10px 40px;
+	margin: 0;
+	line-height: 24px
+}
 div.info{
 	padding: 30px 40px 90px 40px;
 	margin: auto;
@@ -42,7 +54,7 @@ div.info{
 }
 h2{
 	font-family: "Stratos", sans-serif;
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 10pt;
 	background-color: #a53e23;
 	color: white;
@@ -86,6 +98,7 @@ a#btn_nyt{
 	box-sizing: border-box;
 	margin: auto;
 	padding: 10px 95px 10px 95px;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, .4);
 }
 a#btn_nyt:hover{
 	background-color: #e4d7b3;
