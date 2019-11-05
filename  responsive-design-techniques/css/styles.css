@@ -58,6 +58,7 @@ margin: 10%;
 section#stretchable-grid-items li{
 width: 50%;
 margin: auto;
+padding: 0;
 }
 }
 
@@ -65,5 +66,6 @@ margin: auto;
 section#stretchable-grid-items li{
 width: 25%;
 margin: auto;
+padding: 0;
 }
 }
