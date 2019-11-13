@@ -1,0 +1,123 @@
+
+html, body {
+	height: 100%;
+}
+a{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+body#body_card_1{
+	background-image: url("../images/Frozone.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+div#div_card_1{
+	margin: 0
+	padding: 50, 30, 50, 30;
+	background-color: #8db5ad;
+	z-index: 100;
+	position: absolute;
+	top: 400;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+
+}
+h1#h1_card_1{
+	font-family: Concert One, sans-serif;
+	display: block;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding: 50, 30, 50, 30;
+}
+
+
+
+body#body_card_2{
+	background-image: url("../images/Edna.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right top;
+	z-index: 0;
+}
+div#div_card_2{
+	margin: 0;	
+	padding: 50, 50, 50, 50;
+	background-color: #beeaf5;
+	z-index: 100;
+	position: absolute;
+	top: 600;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+
+}
+h1#h1_card_2{
+	font-family: Concert One, sans-serif;
+	display: block;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+@media (min-width: 900px) {
+	div#div_card_2{
+		margin: 0, 0, 0, 0;
+		padding: 50, 30, 50, 30;
+		width: 350px;
+		background-color: #beeaf5;
+		z-index: 100;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 600;
+		left: 0;
+}
+}
+
+body#body_card_3{
+	background-image: url("../images/Bob.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right top;
+	z-index: 0;
+}
+div#div_card_3{
+	margin: 0;	
+	padding: 50, 50, 50, 50;
+	background-color: #ebd086;
+	z-index: 100;
+	position: absolute;
+	top: 600;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+
+}
+h1#h1_card_3{
+	font-family: Concert One, sans-serif;
+	display: block;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+@media (min-width: 900px) {
+	div#div_card_3{
+		margin: 0, 0, 0, 0;
+		padding: 50, 30, 50, 30;
+		width: 350px;
+		background-color: #ebd086;
+		z-index: 100;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 600;
+		left: 0;
+}
