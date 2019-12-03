@@ -1,6 +1,6 @@
 body#body_card_1{
 	background-image: url("../images/movabletype.jpg");
-	background-repeat: no-repeat;
+
 	background-size: cover;
 	background-position: right top;
 	z-index: 0;
@@ -130,7 +130,6 @@ p{
 
 h3#h3_move{
 	margin-left: 10%;
-
 }
 
 p#p_move{
@@ -179,6 +178,12 @@ img#img_intro_type{
 	width: 50%;
 }
 
+section#div{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 h3#h3_source{
 	margin-left: 10%;
 	width: 10%;
@@ -186,15 +191,11 @@ h3#h3_source{
 }
 
 h3#h3_source1{
-	float: left;
 	margin-left: 10%;
 	margin-top: -5%;
-	width: 10%;
 
 }
 
 p#p_source{
-	float: left;
-	width: 26%;
 	margin: 25px 0 10% 10%;
 }
