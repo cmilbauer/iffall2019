@@ -107,13 +107,14 @@ p#p_move{
 }
 }
 
-@media (max-width: 1300px){
+//* @media (max-width: 1300px){
 section {
 padding: 50px, 50px, 50px, 50px;
 background-color: rgba(500, 500, 500); opacity: .80;
 margin: 0 0 0 0;
 }
 }
+**/
 
 body#body_wood{
 	background-image: url("../images/wave.jpg");
