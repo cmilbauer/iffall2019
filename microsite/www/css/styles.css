@@ -98,6 +98,22 @@ body#body_move{
 	background-position: right top;
 }
 
+@media (max-width: 1320px){
+p#p_move{
+	padding: 50px, 50px, 50px, 50px;
+	background-color: rgba(500, 500, 500); opacity: .80;
+	margin: 0 0 0 0;
+
+}
+}
+
+@media (max-width: 1300px){
+section {
+padding: 50px, 50px, 50px, 50px;
+background-color: rgba(500, 500, 500); opacity: .80;
+margin: 0 0 0 0;
+}
+}
 
 body#body_wood{
 	background-image: url("../images/wave.jpg");
@@ -138,14 +154,6 @@ p#p_move{
 	margin: 25px 0 10% 10%;
 }
 
-@media (max-width: 640px){
-body {
-background-color: #eaf6ff;
-}
-h1 {
-font-size: 2.5em;
-}
-}
 
 section#section_gallery{
 	margin-top: 10%;
